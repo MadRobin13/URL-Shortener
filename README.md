@@ -6,3 +6,6 @@ A URL-Shortener made usinng GO and Redis
 
 ## License:
 It has this [License](LICENSE)
+
+## Extra Stuff:
+Made using [this tutorial](https://www.eddywm.com/lets-build-a-url-shortener-in-go/)
