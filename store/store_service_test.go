@@ -3,7 +3,6 @@ package store
 import (
 	"testing"
 
-	"github.com/stretchr/testify"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -22,9 +21,9 @@ func TestInsertAndRetrieval(t *testing.T) {
 	userUUId := "e0dba740-fc4b-4977-872c-d360239e6b1a"
 	shortURL := "Jsz4k57oAX"
 
-	SaveurlMapping(shortURL, initialLink, userUUId)
+	SaveUrlMapping(shortURL, initialLink, userUUId)
 
-	retrievedUrl := RetrieveInitialUrl(shortUrl)
+	retrievedUrl := RetrieveInitialUrl(shortURL)
 
 	assert.Equal(t, initialLink, retrievedUrl)
 }
